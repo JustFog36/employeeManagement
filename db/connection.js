@@ -1,4 +1,3 @@
-
 // get the client
 const mysql = require('mysql2');
 
@@ -7,7 +6,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   database: 'employeemanager',
-  password: 'root'
+  password: 'SoccerCode36'
 });
 
 module.exports = connection
